@@ -4,7 +4,7 @@ body{
 header {
     height: auto; background-color: #0a043c; width: 100%;
 }
-P{line-height:1em;}
+P{line-height:1.5em; width:100%}
 header h1{ text-align: center;}
 header h1{
     font-family:Courgette;  font-size: 4rem;margin-top: 0px; margin-bottom: 0px;color: white;
@@ -50,7 +50,7 @@ hr{
 }
 p{font-family: Merriweather;}
 .skill-row p{
-    width: 90%; margin: auto; text-align:left;
+    width: 100%; margin: auto; text-align:left;
 
 }
 .skill-row{
