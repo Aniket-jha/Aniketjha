@@ -1,10 +1,10 @@
 body{
-    margin: 0px; text-align: center;font-size: 20px;
+    margin: 0px; text-align: center;font-size:1rem;
 }
 header {
     height: auto; background-color: #0a043c; width: 100%;
 }
-p{line-height: 2;}
+p{line-height: 0.5;}
 header h1{ text-align: center;}
 header h1{
     font-family:Courgette;  font-size: 4rem;margin-top: 0px; margin-bottom: 0px;color: white;
@@ -13,7 +13,7 @@ header p{
     font-family:'Times New Roman', Times, serif; font-size: 2rem; margin-top: 0px; margin-bottom: 0px; text-decoration: underline;text-align: center;
     color: white;
 }
-.astronaut{padding-right: 320px;}
+.astronaut{padding-right: 20%;}
 p{color: rgb(199, 145, 250);}
 h2,h3{color: teal;}
 .moon{
@@ -50,11 +50,11 @@ hr{
 }
 p{font-family: Merriweather;}
 .skill-row p{
-    width: 90%; margin: auto; text-align:left;
+    width: 95%; margin: auto; text-align:left;
 
 }
 .skill-row{
-    width: 50%;margin:100px auto 100px auto;text-align: left;
+    width: 50%;margin:85px auto 85px auto;text-align: left;
 }
 .blog{
     float: right;margin-left: 30px;
