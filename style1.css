@@ -4,7 +4,7 @@ body{
 header {
     height: auto; background-color: #0a043c; width: 100%;
 }
-
+P{line-height:1em;}
 header h1{ text-align: center;}
 header h1{
     font-family:Courgette;  font-size: 4rem;margin-top: 0px; margin-bottom: 0px;color: white;
@@ -40,7 +40,7 @@ hr{
     width: 30%; padding: auto; margin: auto;
 }
 .coding{
-    float: left;margin-right: 30px;
+    
 }
 .skill-row h3{
     font-family: 'Times New Roman', Times, serif; margin: auto; font-size: 2rem; text-decoration: underline;
@@ -50,14 +50,14 @@ hr{
 }
 p{font-family: Merriweather;}
 .skill-row p{
-    width: 95%; margin: auto; text-align:left;
+    width: 90%; margin: auto; text-align:left;
 
 }
 .skill-row{
-    width: 65%;margin:85px auto 85px auto;text-align: left;
+    width: 60%;margin:85px auto 85px auto;text-align: left;
 }
 .blog{
-    float: right;margin-left: 30px;
+   
 }
 .blog-text{
     text-align: right; padding-right: 300px;
