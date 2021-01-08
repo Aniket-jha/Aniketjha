@@ -1,10 +1,10 @@
 body{
-    margin: 0px; text-align: center;font-size:1rem;
+    margin: 0px; text-align: center;font-size: 20px;
 }
 header {
     height: auto; background-color: #0a043c; width: 100%;
 }
-P{line-height:1.5em; width:100%}
+p{line-height: 2;}
 header h1{ text-align: center;}
 header h1{
     font-family:Courgette;  font-size: 4rem;margin-top: 0px; margin-bottom: 0px;color: white;
@@ -13,7 +13,7 @@ header p{
     font-family:'Times New Roman', Times, serif; font-size: 2rem; margin-top: 0px; margin-bottom: 0px; text-decoration: underline;text-align: center;
     color: white;
 }
-.astronaut{padding-right: 20%;}
+.astronaut{padding-right: 320px;}
 p{color: rgb(199, 145, 250);}
 h2,h3{color: teal;}
 .moon{
@@ -40,7 +40,7 @@ hr{
     width: 30%; padding: auto; margin: auto;
 }
 .coding{
-    
+    float: left;margin-right: 30px;
 }
 .skill-row h3{
     font-family: 'Times New Roman', Times, serif; margin: auto; font-size: 2rem; text-decoration: underline;
@@ -50,14 +50,14 @@ hr{
 }
 p{font-family: Merriweather;}
 .skill-row p{
-    width: 100%; margin: auto; text-align:left;
+    width: 70%; margin: auto; text-align:left;
 
 }
 .skill-row{
-    width: 60%;margin:85px auto 85px auto;text-align: left;
+    width: 50%;margin:100px auto 100px auto;text-align: left;
 }
 .blog{
-   
+    float: right;margin-left: 30px;
 }
 .blog-text{
     text-align: right; padding-right: 300px;
@@ -104,3 +104,38 @@ margin-top: 3%;margin-bottom: 15%;
     color:#fdb827;
 }
 a:hover{color:green; background-color: white; border:5px black }
+@media (max-width:768px){
+    .coding{
+       float: none;width: 200px;margin: auto;
+    }
+    .blog{
+       float: none;width: 200px;margin: auto;
+    }
+    .my-image{
+        width: 200px;
+    }
+    p{
+        line-height: 1.5;width: 100%;text-align: center;
+    }
+    header h1{
+        font-size: 2rem;
+    }
+    header p{
+        font-size: 1rem;
+    }
+    .astronaut{
+        padding-right: 100px;
+    }
+    .skill-row{
+        margin: 60px auto 60px auto;
+    }
+    .profile p{
+        width: 70%;
+    }
+    .skill-row p{
+        width: 100%;text-align: center;
+    }
+    .skill-row h3{
+        text-align: center;
+    }
+}
